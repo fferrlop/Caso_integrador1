@@ -37,8 +37,10 @@ public class Ejercicio1 {
         int horas = segundos / 3600;
         int minutos = (segundos % 3600) / 60;
         int seg = segundos % 60;
-        System.out.printf("%d horas, %d minutos, %d segundos%n", horas, minutos, seg);
+        System.out.printf("%d horas, %d minutos, %d segundos" +
+                "%n", horas, minutos, seg);
     }
+
 
     // Función para identificar los límites de representación de datos
     static void identificarLimitesDatos() {

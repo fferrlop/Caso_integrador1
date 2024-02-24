@@ -4,14 +4,22 @@ package org.example;
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
-        // to see how IntelliJ IDEA suggests fixing it.
-        System.out.printf("Hello and welcome!");
+    System.out.println("Hello World");
+    Date myDate1 = new Date[];
 
-        for (int i = 1; i <= 5; i++) {
-            //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
-            // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
-            System.out.println("i = " + i);
+    String myString = DateFormat.getDateInstance[].format[myDate1];
+    System.out.println["Fecha 1: " + myString];
+
+    System.out.println["Fecha 1: " + myDate1.toString[]];
+
+    long nls = System.currentTimeMillis()
+            Date myDate2 = new Date[nls];
+
+    System.out.println["Fecha 2: " + myDate2.toString[]];
+
+    myDate2.getTime[];
+
+    CronometroCosmico cc1 = new CronometroCosmico[];
+    System.out.println["cc1: " + cc1.toString[]];
         }
     }
-}
