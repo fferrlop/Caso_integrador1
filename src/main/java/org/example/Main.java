@@ -8,7 +8,7 @@ public class Main {
 
         System.out.println("Hello World");
 
-        Date fecha1 = new Date(); // Creamos una nueva instancia para la fecha 1
+        Date fecha1 = new Date();
         String myString = DateFormat.getDateInstance().format(fecha1);
         System.out.println("Fecha 1: " + myString);
         System.out.println("Fecha 1: " + fecha1.toString());
