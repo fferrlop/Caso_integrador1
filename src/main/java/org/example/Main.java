@@ -60,16 +60,21 @@ public class Main {
         }
 
         // Muestra los resultados
+
         System.out.println("Media de recursos consumidos: " + media);
         System.out.println("Mínimo de recursos consumidos: " + minimo);
         System.out.println("Máximo de recursos consumidos: " + maximo);
         System.out.println("Proyección de consumo para la próxima semana:");
         for (int i = 0; i < proyeccion.length; i++) {
             System.out.println("Día " + (i + 1) + ": " + proyeccion[i]);
-
-
-        System.out.println("__________________________________________________________________________________");
-
         }
+
+// Sistema de alerta y Monitoreo
+        System.out.println("__________________________________________________________________________________");
+        System.out.println("Sistema de Alerta y Monitoreo");
+
+        SistemaMonitoreo sistema = new SistemaMonitoreo();
+        sistema.monitorear();
+
     }
 }

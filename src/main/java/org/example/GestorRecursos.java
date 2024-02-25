@@ -54,4 +54,6 @@ public class GestorRecursos {
     public double getCantidad() {
         return cantidad;
     }
+
+
 }
