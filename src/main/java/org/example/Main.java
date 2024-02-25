@@ -95,5 +95,42 @@ public class Main {
         int cargaOptima = planificador.calcularCargaOptima();
         System.out.println("Carga de trabajo óptima por miembro: " + cargaOptima);
 
+//Navegador Estelar
+
+        System.out.println("__________________________________________________________________________________");
+        System.out.println("Navegador Estelar");
+
+        int[][] terreno = {
+                {0, 1, 0, 0, 0},
+                {0, 0, 0, 1, 0},
+                {1, 1, 0, 0, 0},
+                {0, 0, 1, 0, 1},
+                {0, 0, 0, 0, 0}
+        };
+
+        NavegadorEstelar navegador = new NavegadorEstelar(terreno);
+
+        navegador.visualizarTerreno();
+
+        navegador.planificarRutaOptima();
+
+// Comunicador Intergaláctico
+
+        System.out.println("__________________________________________________________________________________");
+        System.out.println("Comunicador Intergalactico");
+
+        String mensaje = "Anita lava la tina";
+
+        int cantidadVocales = ComunicadorInterplanetario.contarVocales(mensaje);
+        System.out.println("Cantidad de vocales: " + cantidadVocales);
+
+
+        String mensajeInvertido = ComunicadorInterplanetario.invertirMensaje(mensaje);
+        System.out.println("Mensaje invertido: " + mensajeInvertido);
+
+
+        boolean esPalindromo = ComunicadorInterplanetario.esPalindromo(mensaje);
+        System.out.println("Es palíndromo: " + esPalindromo);
+
     }
 }

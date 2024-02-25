@@ -18,7 +18,7 @@ public class GestorRecursos {
     }
 
     public double calcularPrediccionNecesidadFutura(int periodo) {
-        // Simplemente devuelve la cantidad actual, ya que esta implementación básica no incluye cálculos de predicción.
+
         return cantidad;
     }
 
@@ -46,7 +46,7 @@ public class GestorRecursos {
 
     public double[] generarProyeccionConsumo(int periodo) {
         double[] proyeccion = new double[periodo];
-        // Por simplicidad, la proyección será la misma que la cantidad actual
+
         Arrays.fill(proyeccion, cantidad);
         return proyeccion;
     }
