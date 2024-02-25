@@ -114,7 +114,7 @@ public class Main {
 
         navegador.planificarRutaOptima();
 
-// Comunicador Intergaláctico
+//Comunicador Intergaláctico
 
         System.out.println("__________________________________________________________________________________");
         System.out.println("Comunicador Intergalactico");
