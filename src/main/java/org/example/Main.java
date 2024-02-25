@@ -83,15 +83,15 @@ public class Main {
 
         PlanificadorTareas planificador = new PlanificadorTareas();
 
-        // Asignar tareas a cada miembro de la tripulación
+
         planificador.asignarTarea("Miembro 1", 5);
         planificador.asignarTarea("Miembro 2", 6);
         planificador.asignarTarea("Miembro 3", 4);
 
-        // Visualizar horario y cargas de trabajo
+
         planificador.visualizarHorario();
 
-        // Calcular carga de trabajo óptima
+
         int cargaOptima = planificador.calcularCargaOptima();
         System.out.println("Carga de trabajo óptima por miembro: " + cargaOptima);
 
@@ -114,7 +114,7 @@ public class Main {
 
         navegador.planificarRutaOptima();
 
-//Comunicador Intergaláctico
+// Comunicador Intergaláctico
 
         System.out.println("__________________________________________________________________________________");
         System.out.println("Comunicador Intergalactico");
