@@ -51,5 +51,7 @@ public class GestorRecursos {
         return proyeccion;
     }
 
-    // Getters y setters
+    public double getCantidad() {
+        return cantidad;
+    }
 }

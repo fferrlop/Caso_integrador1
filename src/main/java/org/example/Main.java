@@ -6,6 +6,7 @@ import java.util.Date;
 public class Main {
     public static void main(String[] args) {
 
+        System.out.println("Cronometro Cosmico");
         // CronometroCosmico
 
         System.out.println("Hello World");
@@ -22,25 +23,53 @@ public class Main {
         System.out.println("cc1: " + cc1.toString());
 
 
+
         // GestorRecursos
+
+        System.out.println("__________________________________________________________________________________");
+        System.out.println("Gestor de Recursos");
 
         GestorRecursos agua = new GestorRecursos("Agua", 100, 50);
         agua.actualizarConsumo(20);
 
         double[] consumos = {30, 40, 50, 60};
+        double totalConsumido = 0;
+        for (double consumo : consumos) {
+            totalConsumido += consumo;
+        }
+
+
+        agua.actualizarConsumo(totalConsumido);
 
         double media = agua.calcularMediaRecursosConsumidos(consumos);
         double minimo = agua.calcularMinimoRecursosConsumidos(consumos);
         double maximo = agua.calcularMaximoRecursosConsumidos(consumos);
-        double[] proyeccion = agua.generarProyeccionConsumo(7); // Por ejemplo, para una semana
 
 
+        double[] proyeccion = new double[7];
+        double cantidadRestante = agua.getCantidad();
+        double consumoPromedio = totalConsumido / consumos.length;
+
+        for (int i = 0; i < 7; i++) {
+            if (cantidadRestante > 0) {
+                proyeccion[i] = Math.min(cantidadRestante, consumoPromedio);
+                cantidadRestante -= proyeccion[i];
+            } else {
+                proyeccion[i] = consumoPromedio;
+            }
+        }
+
+        // Muestra los resultados
         System.out.println("Media de recursos consumidos: " + media);
         System.out.println("Mínimo de recursos consumidos: " + minimo);
         System.out.println("Máximo de recursos consumidos: " + maximo);
         System.out.println("Proyección de consumo para la próxima semana:");
         for (int i = 0; i < proyeccion.length; i++) {
             System.out.println("Día " + (i + 1) + ": " + proyeccion[i]);
+
+
+        System.out.println("__________________________________________________________________________________");
+
         }
     }
 }
