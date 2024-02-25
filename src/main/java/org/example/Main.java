@@ -76,5 +76,12 @@ public class Main {
         SistemaMonitoreo sistema = new SistemaMonitoreo();
         sistema.monitorear();
 
+// Planificador de tareas
+
+        System.out.println("__________________________________________________________________________________");
+        System.out.println("Planificador de Tareas");
+
+
+
     }
 }

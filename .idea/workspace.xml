@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1474ebec-7a54-4e23-90d1-67f999680378" name="Changes" comment="gestorrecursos">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Ejercicio3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/SistemaMonitoreo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/GestorRecursos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/GestorRecursos.java" afterDir="false" />
+    <list default="true" id="1474ebec-7a54-4e23-90d1-67f999680378" name="Changes" comment="Sist alert">
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -79,7 +76,7 @@
       <workItem from="1708768563397" duration="5628000" />
       <workItem from="1708793207588" duration="11000" />
       <workItem from="1708793240498" duration="667000" />
-      <workItem from="1708856338958" duration="4494000" />
+      <workItem from="1708856338958" duration="4883000" />
     </task>
     <task id="LOCAL-00001" summary="hola mundo">
       <option name="closed" value="true" />
@@ -161,7 +158,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708866866671</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Sist alert">
+      <option name="closed" value="true" />
+      <created>1708869079656</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1708869079656</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -185,6 +190,7 @@
     <MESSAGE value="main cronometro" />
     <MESSAGE value="cronometroDone" />
     <MESSAGE value="gestorrecursos" />
-    <option name="LAST_COMMIT_MESSAGE" value="gestorrecursos" />
+    <MESSAGE value="Sist alert" />
+    <option name="LAST_COMMIT_MESSAGE" value="Sist alert" />
   </component>
 </project>
